@@ -1,0 +1,127 @@
+body{
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: hsl(303, 10%, 53%);
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1.lead{
+    color: hsl(300, 43%, 22%);
+}
+h2{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+h3{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(333, 80%, 67%);
+    margin-top: 2px;
+    line-height: 0;
+}
+p.lead{
+    color: hsl(303, 10%, 53%);
+}
+p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+}
+img{
+    float: left;
+    border-radius: 90px;
+    width: 15%;
+}
+img.star{
+    
+    width: 4%;
+    margin-left: 8px;
+}
+
+
+.container{
+    max-height: 600px;
+    width: 80%;
+    margin: 80px 90px;
+    padding: 0 40px;
+    background-color: #fff;
+    max-width: 1440px;
+}
+    
+
+.main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 50px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    width: 80%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    font-size: 12px;
+    width: 90%;
+    padding-bottom: 50px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+}
+.rt.card{
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    height: 3%;
+    color: #333333;
+    text-align: center;
+    align-content: center;
+}
+.people.card{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    width: 250px;
+    height: 150px;
+}
+.card-2{
+   position: relative;
+   left: 30px;
+}
+
+.card-3{
+    position: relative;
+    left: 90px;
+ }
+
+.people-2{
+    position: relative;
+    top:20px ;
+}
+.people-3{
+    position: relative;
+    top:40px ;
+}
+
+.ratings{
+    position: relative;
+    left: 220px;
+   
+}
+.text{
+    margin-left:80px;
+}
+.text-2{
+    padding-top: 20px;
+}
+p.r-text{
+    color: hsl(300, 43%, 22%);
+    font-size: 12px;
+    font-weight: 600;
+   
+}
